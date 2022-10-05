@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="padre" type="id" />
+    <item name="hijo1" type="id" />
+    <item name="hijo2" type="id" />
+</resources>
