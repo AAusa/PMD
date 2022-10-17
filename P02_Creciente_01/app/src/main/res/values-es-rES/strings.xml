@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">P-02_Creciente_01</string>
+    <string name="Configuracion">Configuracion</string>
+    <string name="AcercaDe">Acerca de</string>
+    <string name="Finalizar">Finalizar</string>
+    <string name="Jugar">Jugar</string>
+</resources>
