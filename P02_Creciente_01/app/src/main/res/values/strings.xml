@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">P-02_Creciente_01</string>
+    <string name="Creciente" translatable="false">Creciente</string>
+    <string name="Jugar">Play</string>
+    <string name="Configuracion">Settings</string>
+    <string name="AcercaDe">About</string>
+    <string name="Finalizar">Exit</string>
+</resources>
