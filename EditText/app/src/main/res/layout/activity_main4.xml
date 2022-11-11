@@ -11,13 +11,15 @@
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:background="@drawable/pink_out_line"
-        android:checkedButton="@+id/offer"
+        android:checkedButton="@+id/windows"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191">
 
         <RadioButton
-            android:id="@+id/search"
+            android:id="@+id/windows"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="1dp"
@@ -27,11 +29,11 @@
             android:background="@drawable/toggle_widget_background"
             android:button="@null"
             android:gravity="center"
-            android:text="Search"
+            android:text="Windows"
             android:textColor="@color/white" />
 
         <RadioButton
-            android:id="@+id/offer"
+            android:id="@+id/ubuntu"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginTop="1dp"
@@ -41,7 +43,66 @@
             android:background="@drawable/toggle_widget_background"
             android:button="@null"
             android:gravity="center"
-            android:text="Offers"
+            android:text="Ubuntu"
             android:textColor="@color/white" />
     </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/toggle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pink_out_line"
+        android:checkedButton="@+id/android"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        android:backgroundTint="#FF9800"
+        android:foregroundTint="#F44336"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/android"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_widget_background2"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Windows"
+            android:textColor="@color/white"
+            android:shadowColor="@color/lightOrange"/>
+
+        <RadioButton
+            android:id="@+id/ios"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_widget_background2"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Ubuntu"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/symbiam"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_widget_background2"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Symbiam"
+            android:textColor="@color/white" />
+    </RadioGroup>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
