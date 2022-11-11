@@ -27,7 +27,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
             case R.id.button1:
                 miTexto.setText(R.string.textButton1);
                 miTexto.setTextColor(Color.RED);
-                
+                miTexto.setTextColor(Color.GREEN);
                 break;
             case R.id.button2:
                 miTexto.setText(R.string.textButton2);
