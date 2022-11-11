@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pruebas Button y Text</string>
+    <string name="textButton1">BOTÓN 1 PULSADO</string>
+    <string name="textButton2">BOTÓN 2 PULSADO</string>
+</resources>
