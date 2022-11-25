@@ -10,11 +10,14 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class Adaptador extends BaseAdapter {
+public abstract class Adaptador extends BaseAdapter {
     private ArrayList <Datos> datos;
     private Context contexto;
-    public Adaptador (Context contexto, ArrayList<Datos> datos) {
+    private int R_layout_idView;
+
+    public Adaptador (Context contexto,int R_layout_idView, ArrayList<Datos> datos) {
         super();
+        this.R_layout_idView = R_layout_idView;
         this.contexto=contexto;
         this.datos=datos;
     }
@@ -38,5 +41,6 @@ public class Adaptador extends BaseAdapter {
     @Override
     public long getItemId(int posicion) {return posicion;}
 
+    public abstract void onEntrada(Object entrada, View view);
 
 }

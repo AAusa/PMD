@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String nuevoTexto = "Pulsado: " + paises[i];
                 tv.setText(nuevoTexto);
-
             }
         });
     }

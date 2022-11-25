@@ -18,15 +18,16 @@ public class Adaptador extends BaseAdapter {
         this.contexto=contexto;
         this.datos=datos;
     }
-
     @Override
     public View getView(int posicion, View view, ViewGroup parent){
         LayoutInflater mostrado = LayoutInflater.from(contexto);
         View elemento = mostrado.inflate(R.layout.elemento, parent, false);
         ImageView imagen = (ImageView) elemento.findViewById(R.id.imagen);
         imagen.setImageResource(datos.get(posicion).getImagen());
+
         TextView titulo = (TextView) elemento.findViewById(R.id.titulo);
         titulo.setText(datos.get(posicion).getTitulo());
+
         TextView descripcion = (TextView) elemento.findViewById(R.id.descripcion);
         descripcion.setText(datos.get(posicion).getDescripcion());
         return elemento;
@@ -37,6 +38,4 @@ public class Adaptador extends BaseAdapter {
     public Object getItem(int posicion) {return datos.get(posicion);}
     @Override
     public long getItemId(int posicion) {return posicion;}
-
-
 }
