@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ejercicio1AusaberriAlvaro</string>
+    <string name="tituloApp">Ejercicio 1</string>
+    <string name="descripcion">El lago Tahoe es un lago grande de agua dulce en la Sierra Nevada, occidente de los Estados Unidos, en la frontera entre California y Nevada.
+
+
+El lago tiene fama por su agua muy limpia y transparente, así como por el panorama de montañas en todas las direcciones. A la región donde se ubica se le llama simplemente Tahoe y es conocida como un centro de esquí, deportes de verano e incluso casinos. Obtiene su agua de un total de 63 tributarios, que drenan una cuenca de extensión similar a la del propio lago. El lago desagua a través del río Truckee, que fluye en dirección Norte, atraviesa Reno y desemboca en el lago Pyramid. Su extensión máxima es 35 km de largo y 19 km de ancho, su superficie es 495 km². Su profundidad media es de 301 m y máxima de 501 m. Tiene un volumen de agua de 151 km³. Tiene una costa de 114 km y está situado a una altura de 1.899 m.
+Las principales ciudades a su alrededor son South Lake Tahoe, Truckee y Tahoe City en California y Carson City, Reno y Stateline en Nevada.
+El lago Tahoe aparece en la película El Padrino II, X-Men 2 y 3 y en la serie Bonanza.</string>
+    <string name="titulo">Lago Tahoe</string>
+    <string name="boton1">1</string>
+    <string name="boton2">2</string>
+    <string name="textoA2">Examen móviles</string>
+    <string name="botonSalir">Salir</string>
+</resources>
