@@ -1,1 +1,1 @@
-# Mobile Device Programming subject project
+# Mobile Device Programming subject projects
